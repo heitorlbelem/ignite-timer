@@ -23,6 +23,10 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      'no-unused-vars': 'warn',
+      'quotes': ['error', 'double'],
+      'semi': ['error', 'never'],
+      'comma-dangle': ['error', 'always-multiline']
     },
   },
 )
